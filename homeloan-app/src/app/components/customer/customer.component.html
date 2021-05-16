@@ -1,0 +1,31 @@
+<div class="container-fluid row row-cols-2 mt-2">
+    <div class="col container col-sm-8">
+        <img src="../assets/images/5.png" alt="Customer Home Page" width="800" height="500">
+    </div>
+    <div class="col container col-sm-4">
+        <div class=" container jumbotron alert alert-success col-md-offset-3 col-md-12 text-center">
+            <h2>Customer Home</h2>
+        </div>
+
+        <div class="container">
+            <div class="container col-md-offset-3 col-md-12">
+                <h5 class="mt-3 mb-3 text-center">Welcome {{customerName}}</h5>
+                <div class="container mt-2 mb-2 text-center">
+                    <button class="btn btn-primary btn-lg" style="width: 300px;" [routerLink]="['/customer/loanApply']"><b>Apply
+                            Loan</b></button>
+                </div>
+                <h5 class="mt-3 mb-3 text-center">Track your Loan Application Status</h5>
+                <div class="container text-center mt-2 mb-2">
+                    <button class="btn btn-primary btn-lg" style="width: 300px" [routerLink]="['/customer/loanTrack']"><b>Track
+                            Loan</b></button>
+                </div>
+                <h5 class="mt-3 mb-3 text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check Your Loan Agreement</h5>
+                <div class="container text-center mt-2 mb-2">
+                    <button class="btn btn-primary btn-lg" style="width: 300px" [routerLink]="['/customer/loanAgreement']"><b>Loan
+                            Agreement</b></button>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
